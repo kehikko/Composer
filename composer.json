@@ -22,6 +22,6 @@
 	},
 	"extra":
 	{
-		"class": "kehikko\\Composer\\RouteInstaller"
+		"class": "kehikko\\Composer\\RouteInstallerPlugin"
 	}
 }
