@@ -12,12 +12,12 @@ class RouteInstaller extends LibraryInstaller
 	 */
 	public function getInstallPath(PackageInterface $package)
 	{
-		$prefix = substr($package->getPrettyName(), 0, 1);
+		$prefix = substr($package->getPrettyName(), 0, 14);
 		if ('kehikko/route/' !== $prefix)
 		{
 			throw new \InvalidArgumentException(
 				'Unable to install template, kehikko routes should always start their package name with '
-				. '"kehikko/route/" ' . $package->getPrettyName()
+				. '"kehikko/route/"'
 			);
 		}
 
