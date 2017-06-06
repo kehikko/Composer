@@ -1,2 +1,2 @@
-# Installer
-Installer features for kehikko framework.
+# Composer
+Composer related features for kehikko framework.
